@@ -1,0 +1,11 @@
+[
+ {"key":"space","name":"חלל","emoji":"🚀","color":"#E6DEFF","ink":"#5B45A8"},
+ {"key":"science","name":"מדע","emoji":"🔬","color":"#D3F3E6","ink":"#21795A"},
+ {"key":"education","name":"חינוך","emoji":"📚","color":"#FFF0B5","ink":"#8A6400"},
+ {"key":"medicine","name":"רפואה","emoji":"🩺","color":"#FFDDE5","ink":"#A63A5A"},
+ {"key":"sports","name":"ספורט","emoji":"🏅","color":"#D5EBFF","ink":"#24609E"},
+ {"key":"economy","name":"כלכלה","emoji":"💡","color":"#FFE2C6","ink":"#9A4F12"},
+ {"key":"music","name":"מוסיקה","emoji":"🎵","color":"#F4DAF9","ink":"#8A3A9C"},
+ {"key":"events","name":"אירועים מיוחדים","emoji":"🌍","color":"#D6F1EE","ink":"#1F7069"},
+ {"key":"experiments","name":"ניסויים","emoji":"🧪","color":"#E5F4CB","ink":"#4F7A12"}
+]

@@ -1,0 +1,599 @@
+{
+ "date": "2026-10-08",
+ "number": 1,
+ "title": "מהדורה ראשונה: בוקר טוב, עולם!",
+ "intro": "ברוכים הבאים וברוכות הבאות למהדורה הראשונה של ״בוקר טוב עולמי״! כל שבוע נביא כאן ידיעות טובות ומעודדות מכל העולם: על חלל, מדע, חינוך, רפואה, ספורט, כלכלה, מוסיקה ואירועים מיוחדים, וגם רעיונות לניסויים שאפשר לעשות בבית ובכיתה. כל ידיעה נשמרת בארכיון, כך שאפשר תמיד לחזור ולקרוא.",
+ "items": [
+  {
+   "id": "nuri-satellites",
+   "topic": "space",
+   "date": "2026-10-07",
+   "title": "הטיל הקוריאני נורי שיגר ״להקה״ של לוויינים קטנים",
+   "body": [
+    "ביום רביעי, 7 באוקטובר 2026, המריא הטיל נורי מהמרכז לחלל נארו שבדרום קוריאה. זו הייתה הטיסה החמישית של הטיל, שפותח בדרום קוריאה עצמה, והרביעית ברציפות שהצליחה.",
+    "הטיל נשא 15 לוויינים. חמישה מהם הם לוויינים קטנים, שכל אחד שוקל פחות מ־100 קילוגרם. הם שוחררו לחלל בזה אחר זה, בהפרש של פחות מדקה, ויחד הם מתחילים ״להקה״ של לוויינים שמצלמים את כדור הארץ. בעתיד יצטרפו אליהם עוד חמישה, והלהקה תוכל לצלם את חצי האי הקוריאני יותר משלוש פעמים ביום, למשל כדי לעזור בזמן אסונות טבע.",
+    "גם 9 מתוך 10 לוויינים זעירים נוספים שוחררו כמתוכנן, ורק אחד לא הצליח להשתחרר. הפעם חברה פרטית בנתה את הטיל, סימן לכך שתעשיית החלל בקוריאה גדלה."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/nuri.jpg",
+    "alt": "הטיל נורי ממריא מכן השיגור, עם עשן ואש מתחתיו",
+    "caption": "שיגור קודם של הטיל נורי, באוקטובר 2021",
+    "credit": "한국항공우주연구원 (Korea Aerospace Research Institute)",
+    "license": "KOGL Type 1",
+    "license_url": "http://www.kogl.or.kr/info/licenseType1.do",
+    "source_url": "https://commons.wikimedia.org/wiki/File:KSLV-II_Nuri_Launch_2021-10-21.jpg"
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=kt5tHNwvJgc",
+    "title": "Nuri launches 15 satellites",
+    "channel": "SciNews",
+    "lang": "בלי קריינות",
+    "duration": "3:07"
+   },
+   "think": "אם הייתם ממציאים ומציאות לוויין קטן, מה הייתם רוצים שהוא יצלם או יבדוק מהחלל?",
+   "sources": [
+    {
+     "name": "Yonhap",
+     "title": "Nuri rocket deploys 5 satellites for S. Korea's first microsatellite constellation",
+     "url": "https://en.yna.co.kr/view/AEN20261007005452320",
+     "date": "2026-10-07"
+    },
+    {
+     "name": "Space.com",
+     "title": "South Korea launches Nuri rocket carrying 15 satellites",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/nuri-rocket-launches-15-satellites-on-south-koreas-1st-liftoff-of-2026-photo",
+     "date": "2026-10-07"
+    },
+    {
+     "name": "DongA Science",
+     "title": "All 5 NeonSat units establish two-way links",
+     "url": "https://www.dongascience.com/en/news/80248",
+     "date": "2026-10-07"
+    }
+   ],
+   "more": [
+    {
+     "name": "Wikipedia (אנגלית)",
+     "title": "Nuri (rocket)",
+     "url": "https://en.wikipedia.org/wiki/Nuri_(rocket)"
+    }
+   ]
+  },
+  {
+   "id": "nuclear-clocks",
+   "topic": "science",
+   "date": "2026-10-07",
+   "title": "השעונים הגרעיניים הראשונים מתקתקים",
+   "body": [
+    "שני צוותים של מדענים ומדעניות, אחד מסין ואחד מאוסטריה וגרמניה, דיווחו בכתב העת Nature שבנו את ה״שעונים הגרעיניים״ הראשונים שעובדים.",
+    "שעון מטוטלת סופר את התנודות של המטוטלת. שעון אטומי, המדויק ביותר שיש היום, סופר שינויים זעירים באלקטרונים שמסביב לגרעין האטום. השעון הגרעיני ״מקשיב״ לגרעין עצמו: הוא משתמש בסוג מיוחד של היסוד תוריום (תוריום־229) שנמצא בתוך גביש, ובלייזר מדויק מאוד.",
+    "לפי הדיווחים, השעונים החדשים כל כך מדויקים, שגם אם יעבדו 30 מיליון שנה הם יטעו בשנייה אחת בלבד. הם עוד לא עוקפים את השעונים האטומיים הטובים ביותר, אבל החוקרים והחוקרות מקווים לשפר אותם מהר. בעתיד שעונים כאלה, אולי בגודל של שבב, יוכלו לשפר את הניווט בלוויין (GPS), לעזור לגלות מה יש מתחת לאדמה ולחקור תעלומות כמו החומר האפל."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/clock.jpg",
+    "alt": "מעבדה מלאה בלייזרים, מראות וכבלים צבעוניים",
+    "caption": "שעון אטומי מסוג איטרביום במעבדה בארה״ב (תמונת המחשה). הצוות מאוסטריה וגרמניה השווה את השעון הגרעיני שלו לשעון מהסוג הזה",
+    "credit": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "license_url": "",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Atomic_Clock_(10444764266).jpg"
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=e6QyZ8q-WI8",
+    "title": "The Nuclear Clock: The Next Leap in Timekeeping",
+    "channel": "NIST (המכון האמריקאי לתקנים)",
+    "lang": "אנגלית, סרטון הסבר מ־2025",
+    "duration": "2:01"
+   },
+   "think": "איפה בחיים שלנו חשוב לדעת את השעה בדיוק רב? נסו למצוא שלוש דוגמאות.",
+   "sources": [
+    {
+     "name": "ABC News (אוסטרליה)",
+     "title": "Nuclear clocks could become world's most accurate timekeepers",
+     "url": "https://www.abc.net.au/news/science/2026-10-08/world-first-nuclear-clocks-built-most-accurate-time/107238860",
+     "date": "2026-10-08"
+    },
+    {
+     "name": "The Hindu",
+     "title": "Scientists report world's first working nuclear clocks",
+     "url": "https://www.thehindu.com/sci-tech/science/scientists-report-worlds-first-working-nuclear-clocks/article71537614.ece",
+     "date": "2026-10-08"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "שעון אטומי",
+     "url": "https://he.wikipedia.org/wiki/שעון_אטומי"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "תוריום",
+     "url": "https://he.wikipedia.org/wiki/תוריום"
+    }
+   ]
+  },
+  {
+   "id": "egypt-reading",
+   "topic": "education",
+   "date": "2026-09-24",
+   "title": "עד מיליון ילדים וילדות במצרים יקבלו עזרה בלימוד קריאה",
+   "body": [
+    "ב־24 בספטמבר 2026 חתמו יוניסף (קרן הילדים של האו״ם) וקרן סאוויריס על שותפות חדשה, יחד עם משרד החינוך המצרי, לחיזוק הקריאה והכתיבה בערבית בבתי הספר היסודיים במצרים.",
+    "השלב החדש יגיע לכל בתי הספר היסודיים הציבוריים בשלושה מחוזות, פיום, אסיוט וסוהאג: כ־2,500 בתי ספר נוספים. לפי ההערכה, בין חצי מיליון למיליון ילדים וילדות ייהנו מהתוכנית.",
+    "איך זה עובד? בודקים באיזו רמה כל ילד וכל ילדה קוראים, ומלמדים לפי הרמה הזו. כ־10,000 מורים, מורות ואנשי ונשות חינוך יקבלו הכשרה וליווי, ויוכנו מדריכים חדשים למורים. התוכנית נבנית על שלושה שלבים קודמים שכבר פעלו בכל 27 המחוזות של מצרים. כמו שאמרה נציגת יוניסף במצרים, קריאה וכתיבה הן הבסיס לכל למידה."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/reading.svg",
+    "alt": "איור: ספר פתוח, אותיות שעפות ממנו ושמש זורחת",
+    "caption": "איור מקורי: ספר פתוח ושמש של בוקר",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "מה עזר לכם וללכן ללמוד לקרוא? איך הייתם עוזרים לילד או לילדה שמתחילים ללמוד?",
+   "sources": [
+    {
+     "name": "UNICEF מצרים",
+     "title": "UNICEF and Sawiris Foundation join forces to strengthen foundational Arabic language skills for children in Egypt",
+     "url": "https://www.unicef.org/egypt/press-releases/unicef-and-sawiris-foundation-join-forces-strengthen-foundational-arabic-language",
+     "date": "2026-09-24"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "אוריינות",
+     "url": "https://he.wikipedia.org/wiki/אוריינות"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "יוניסף",
+     "url": "https://he.wikipedia.org/wiki/קרן_החירום_הבין-לאומית_של_האו\"ם_לילדים"
+    }
+   ]
+  },
+  {
+   "id": "nobel-optogenetics",
+   "topic": "medicine",
+   "date": "2026-10-05",
+   "title": "פרס נובל לרפואה: מתג של אור לתאי העצב",
+   "body": [
+    "ב־5 באוקטובר 2026 הוכרז שפרס נובל לפיזיולוגיה או לרפואה יחולק בין שלושה חוקרים: פטר הגמן וגאורג נאגל מגרמניה, וקרל דייסרות מארצות הברית.",
+    "הסיפור התחיל בסקרנות. הגמן רצה להבין איך אצה זעירה, שבנויה מתא אחד בלבד, יודעת לשחות לכיוון האור. הוא ונאגל גילו באצה חלבון מיוחד: כשאור כחול פוגע בו, נפתחת בו תעלה ונוצר בתא אות חשמלי קטן. דייסרות הכניס את החלבון לתאי עצב, וכך אפשר ״להדליק״ תא עצב בעזרת אור.",
+    "השיטה נקראת אופטוגנטיקה. בזכותה חוקרים וחוקרות מגלים אילו רשתות של תאי עצב במוח קשורות לזיכרונות, לרגשות ולהתנהגות. היום מנסים להשתמש בה גם כדי להחזיר ראייה לאנשים עם לקות ראייה. שאלה סקרנית על אצה קטנה הובילה לגילוי גדול."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/alga.jpg",
+    "alt": "תאים סגלגלים קטנים עם שתי שערות דקות, במיקרוסקופ",
+    "caption": "האצה החד־תאית כלמידומונס, כפי שהיא נראית במיקרוסקופ אלקטרונים. בזכות אצה כזו התגלה החלבון הרגיש לאור",
+    "credit": "Dartmouth Electron Microscope Facility, Dartmouth College",
+    "license": "Public domain",
+    "license_url": "",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chlamydomonas6-1.jpg"
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Q3yoss9R8F4",
+    "title": "“We can get a whole new understanding of the function of the brain.” Medicine prize 2026",
+    "channel": "Nobel Prize",
+    "lang": "אנגלית",
+    "duration": "5:05"
+   },
+   "think": "הגילוי התחיל משאלה פשוטה על אצה. על איזו תופעה בטבע אתם ואתן סקרנים לדעת יותר?",
+   "sources": [
+    {
+     "name": "NobelPrize.org",
+     "title": "Press release: Nobel Prize in Physiology or Medicine 2026",
+     "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+     "date": "2026-10-05"
+    },
+    {
+     "name": "Karolinska Institutet",
+     "title": "The 2026 Nobel Prize in Physiology or Medicine to Peter Hegemann, Georg Nagel and Karl Deisseroth",
+     "url": "https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth",
+     "date": "2026-10-05"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "אופטוגנטיקה",
+     "url": "https://he.wikipedia.org/wiki/אופטוגנטיקה"
+    },
+    {
+     "name": "NobelPrize.org",
+     "title": "Popular information: הסבר פשוט על הפרס (אנגלית)",
+     "url": "https://www.nobelprize.org/prizes/medicine/2026/popular-information/"
+    }
+   ]
+  },
+  {
+   "id": "freediving-record",
+   "topic": "sports",
+   "date": "2026-10-06",
+   "title": "שיא עולם בצלילה חופשית: 108 מטר בנשימה אחת",
+   "body": [
+    "באליפות העולם בצלילה חופשית, שנערכת בימים אלה בלימסול שבקפריסין, קבעה הצוללת ההונגרייה ז׳ופיה טורוצ׳יק שיא עולם חדש. בצלילה חופשית צוללים בנשימה אחת, בלי מכל אוויר. במקצה ״טבילה חופשית״ הצוללות מושכות את עצמן בידיים לאורך חבל, בלי סנפירים.",
+    "טורוצ׳יק ירדה לעומק של 108 מטר, בערך כמו גובה של בניין בן 35 קומות, ועלתה חזרה, והכול נמשך 4 דקות. היא זכתה גם בתואר אלופת העולם, וסיפרה שהאושר שלה הגיע לשמיים. במקום השני הגיעה נטליה ז׳רקובה מאוקראינה, עם 103 מטר. השתיים מחליפות ביניהן שיאים כל העונה.",
+    "באותו יום נקבעו גם שיאים לאומיים, ובהם שיא ישראלי חדש של שלומית וולרשטיין: 78 מטר. השיא עוד צריך לעבור אישור רשמי. חשוב לזכור: צלילה עמוקה עושים רק עם מאמנים וצוות בטיחות."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/freediver.jpg",
+    "alt": "צוללן חופשי במים כחולים, יורד לאורך חבל",
+    "caption": "צוללן חופשי לאורך חבל (תמונת המחשה, לא מהתחרות)",
+    "credit": "Andy Moreno",
+    "license": "Public domain",
+    "license_url": "",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Freediver_Moalboal.jpg"
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=B47jUN8TQdc",
+    "title": "Recap: Free Immersion (FIM) | World Apnea 2026 Depth Championships",
+    "channel": "AIDA Freediving",
+    "lang": "אנגלית",
+    "duration": "2:21"
+   },
+   "think": "כדי לשבור שיא צריך להתאמן הרבה ובסבלנות. במה הייתם רוצים ורוצות להשתפר השנה, ומה יהיה הצעד הראשון?",
+   "sources": [
+    {
+     "name": "Cyprus Mail",
+     "title": "Torocsik takes world record and world apnea championship title in Limassol",
+     "url": "https://cyprus-mail.com/2026/10/06/torocsik-takes-world-record-and-world-apnea-championship-title-in-limassol",
+     "date": "2026-10-06"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "צלילה חופשית",
+     "url": "https://he.wikipedia.org/wiki/צלילה_חופשית"
+    }
+   ]
+  },
+  {
+   "id": "germany-solar",
+   "topic": "economy",
+   "date": "2026-09-28",
+   "title": "בתוך תשעה חודשים: גרמניה ייצרה מהשמש יותר חשמל מבכל השנה שעברה",
+   "body": [
+    "גרמניה הגיעה לשיא חדש באנרגיה סולארית. עד 27 בספטמבר 2026 ייצרו בה מערכות סולאריות 90.2 טרה־ואט־שעה של חשמל, יותר מכל מה שייצרו בכל שנת 2025 (90 טרה־ואט־שעה). את הנתונים פרסם איגוד תעשיית השמש בגרמניה, לפי מכון המחקר פראונהופר.",
+    "מה עזר? הרבה פאנלים סולאריים חדשים, וגם הרבה מאוד שעות שמש. ולמה זו גם חדשה כלכלית? חשמל מהשמש לא מצריך לקנות דלק, ובשעות שבהן יש הרבה חשמל סולארי, מחירו בשוק יכול לרדת אפילו מתחת לאפס.",
+    "זה גם מציב אתגר: צריך רשתות חשמל חזקות יותר ודרכים לאגור את החשמל לשעות הערב. גרמניה רוצה להגיע עד 2030 ל־215 ג׳יגה־ואט של מערכות סולאריות, לעומת כ־130 היום. ״זו סיבה לחגוג, אבל לא לנוח״, אמר ראש האיגוד."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/solar-park.jpg",
+    "alt": "צילום לוויין של שדות ירוקים, אגמים וריבועים סגולים של פאנלים סולאריים",
+    "caption": "פארק השמש ויצניץ שבגרמניה, מהגדולים באירופה, בצילום לוויין. הריבועים הכהים הם שדות של פאנלים סולאריים",
+    "credit": "European Union, Copernicus Sentinel-2 imagery",
+    "license": "Attribution",
+    "license_url": "",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Witznitz_Solar_Park,_Europe%E2%80%99s_largest_photovoltaic_plant_(Copernicus_2025-01-03).png"
+   },
+   "video": null,
+   "think": "איפה בבית הספר או בשכונה שלכם הייתם מציעים ומציעות להתקין פאנלים סולאריים, ולמה?",
+   "sources": [
+    {
+     "name": "Clean Energy Wire",
+     "title": "German solar power generation reaches new yearly record in September",
+     "url": "https://www.cleanenergywire.org/news/german-solar-power-generation-reaches-new-yearly-record-september",
+     "date": "2026-09-28"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "אנרגיה סולארית",
+     "url": "https://he.wikipedia.org/wiki/אנרגיה_סולארית"
+    }
+   ]
+  },
+  {
+   "id": "csokids",
+   "topic": "music",
+   "date": "2026-10-06",
+   "title": "תזמורת אמריקאית פתחה אתר משחקים מוזיקלי לילדים וילדות",
+   "body": [
+    "התזמורת הסימפונית של העיר קולומבוס שבארצות הברית השיקה ב־6 באוקטובר 2026 אתר חדש לילדים וילדות מגן חובה ועד כיתה ו׳, בשם CSOkids.",
+    "באתר אפשר להכיר כלי נגינה ולשמוע איך הם נשמעים, לפגוש מלחינים, לשחק במשחקים מוזיקליים ואפילו לשלוח ציורים. את הפעילויות כתבו מורים ומורות ממדינת אוהיו, והן מתאימות לתוכנית הלימודים שם.",
+    "המטרה היא לחבר בין מה שלומדים בבית או בכיתה לבין החוויה של קונצרט אמיתי באולם, עם הנגנים והנגניות של התזמורת. אחד המעצבים של האתר אמר שהרעיון היה שלמידת מוזיקה תרגיש ״כמו הפסקה, לא כמו שיעורי בית״. האתר באנגלית, ואפשר לגלוש בו יחד עם מבוגר או מבוגרת."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/concert.jpg",
+    "alt": "תזמורת ומקהלה של ילדים וילדות על במה, ומנצח מולם",
+    "caption": "תזמורת ומקהלה של ילדים וילדות בצ׳יאפס שבמקסיקו (תמונת המחשה)",
+    "credit": "Fotografiamerlin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Orchestra_and_choir_in_Chiapas.jpg"
+   },
+   "video": null,
+   "think": "איזה כלי נגינה הייתם רוצים ורוצות לנסות? איך לדעתכם הוא נשמע?",
+   "sources": [
+    {
+     "name": "BroadwayWorld",
+     "title": "Columbus Symphony Launches Digital Platform for Young Learners",
+     "url": "https://www.broadwayworld.com/columbus/article/Columbus-Symphony-Launches-Digital-Platform-for-Young-Learners-20261006",
+     "date": "2026-10-06"
+    }
+   ],
+   "more": [
+    {
+     "name": "CSOkids",
+     "title": "האתר CSOkids (אנגלית)",
+     "url": "https://csokids.org"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "תזמורת",
+     "url": "https://he.wikipedia.org/wiki/תזמורת"
+    }
+   ]
+  },
+  {
+   "id": "world-cleanup-day",
+   "topic": "events",
+   "date": "2026-09-24",
+   "title": "יום הניקיון העולמי: מיליוני מתנדבים ומתנדבות ביותר מ־192 מדינות",
+   "body": [
+    "ב־20 בספטמבר 2026 התקיים בפעם התשיעית יום הניקיון העולמי. לפי נתונים ראשוניים שפרסמו המארגנים, מיליוני אנשים ביותר מ־192 מדינות וטריטוריות יצאו לנקות חופים, פארקים, רחובות ונהרות.",
+    "בברזיל הגיע המסר של היום ליותר ממיליון תלמידים ותלמידות. באי קטן ולא מיושב בים הצפוני אספו 27 מתנדבים ומתנדבות כ־15 מטר מעוקב של פסולת שנסחפה לחוף, הוכחה לכך שלפסולת אין גבולות. בסנגל ניקו את כל 19 הרשויות של העיר דקאר, לקראת אולימפיאדת הנוער שתיערך שם.",
+    "הכול התחיל באסטוניה ב־2008, כשחמישים אלף איש ניקו את כל המדינה בחמש שעות. המסר השנה: אם לפחות 5% מאנשי העולם ישתתפו, שמירה על הסביבה תהפוך להרגל של כולם. והצעד הבא, לפי המארגנים, הוא לייצר פחות פסולת מלכתחילה."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-08/cleanup.jpg",
+    "alt": "מתנדבים ומתנדבות בכפפות אוספים פסולת לשקים",
+    "caption": "מתנדבים ומתנדבות ביום ניקיון עולמי (תמונת המחשה משנה קודמת)",
+    "credit": "Abike25",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:World_clean_up_day_cleaning.jpg"
+   },
+   "video": null,
+   "think": "איזה מקום קרוב אליכם הייתם רוצים ורוצות לנקות או לשפר יחד? מה צריך כדי להתחיל?",
+   "sources": [
+    {
+     "name": "World Cleanup Day",
+     "title": "Millions of People, One Planet: World Cleanup Day 2026 Moves from Cleaning Up to Changing Habits",
+     "url": "https://www.worldcleanupday.org/post/millions-of-people-one-planet-world-cleanup-day-2026-moves-from-cleaning-up-to-changing-habits",
+     "date": "2026-09-24"
+    }
+   ],
+   "more": [
+    {
+     "name": "World Cleanup Day",
+     "title": "האתר הרשמי (אנגלית)",
+     "url": "https://www.worldcleanupday.org/"
+    },
+    {
+     "name": "Wikipedia (אנגלית)",
+     "title": "World Cleanup Day",
+     "url": "https://en.wikipedia.org/wiki/World_Cleanup_Day"
+    }
+   ]
+  },
+  {
+   "id": "walking-water",
+   "topic": "experiments",
+   "date": "2026-10-08",
+   "title": "מים מטיילים: מכינים קשת בענן מנייר",
+   "body": [
+    "אפשר לגרום למים ״לטפס״ ולעבור מכוס לכוס בלי לשפוך אף טיפה, ובדרך גם לערבב צבעים ולקבל קשת."
+   ],
+   "materials": [
+    "6 כוסות שקופות",
+    "מים",
+    "צבעי מאכל: אדום, צהוב וכחול",
+    "3 מגבות נייר (נייר סופג)"
+   ],
+   "steps": [
+    "מסדרים את הכוסות במעגל או בשורה.",
+    "ממלאים מים בכוס אחת כן ואחת לא (בשלוש כוסות), ומטפטפים לכל אחת צבע אחר: אדום, צהוב, כחול.",
+    "מקפלים כל מגבת נייר לרצועה ארוכה, ומכניסים קצה אחד לכוס מלאה וקצה שני לכוס הריקה שלידה.",
+    "מחכים וצופים: אחרי כחצי שעה כבר רואים שינוי, ואחרי כמה שעות הכוסות הריקות מתמלאות בצבעים חדשים: כתום, ירוק וסגול."
+   ],
+   "why": "נייר בנוי מסיבים דקים, ובין הסיבים יש רווחים זעירים. המים נמשכים אל הסיבים ונדבקים אליהם, וכך הם מטפסים למעלה בין הרווחים, אפילו נגד כוח המשיכה. התופעה הזו נקראת נימיות, ובזכותה גם צמחים מעבירים מים מהשורשים אל העלים. כשמים בשני צבעים נפגשים בכוס הריקה, הצבעים מתערבבים: אדום וצהוב יוצרים כתום, צהוב וכחול יוצרים ירוק.",
+   "safety": "צבעי מאכל מכתימים: כדאי לעבוד על משטח מכוסה.",
+   "image": {
+    "src": "assets/img/2026-10-08/walking-water.svg",
+    "alt": "איור: כוסות צבעוניות שמחוברות ברצועות נייר, ומעליהן קשת",
+    "caption": "איור מקורי: מים מטיילים בין כוסות",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=s2Jud7F478I",
+    "title": "Walking Water Experiment | STEM Activity",
+    "channel": "Science Buddies",
+    "lang": "אנגלית",
+    "duration": "1:39"
+   },
+   "think": "מה יקרה אם נשתמש בנייר עיתון במקום במגבת נייר? נחשו, ואז בדקו!",
+   "sources": [
+    {
+     "name": "Science Buddies (יוטיוב)",
+     "title": "Walking Water Experiment | STEM Activity",
+     "url": "https://www.youtube.com/watch?v=s2Jud7F478I",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "נימיות",
+     "url": "https://he.wikipedia.org/wiki/נימיות"
+    }
+   ]
+  },
+  {
+   "id": "pepper-soap",
+   "topic": "experiments",
+   "date": "2026-10-08",
+   "title": "הפלפל שבורח מהסבון",
+   "body": [
+    "ניסוי של דקה אחת שנראה כמו קסם: מפזרים פלפל על מים, נוגעים באצבע עם סבון, והפלפל בורח לצדדים."
+   ],
+   "materials": [
+    "צלחת עמוקה",
+    "מים",
+    "פלפל שחור טחון",
+    "סבון נוזלי (סבון כלים)",
+    "קיסם או אצבע"
+   ],
+   "steps": [
+    "ממלאים את הצלחת במים עד חציה.",
+    "מפזרים פלפל שחור על פני המים, בשכבה דקה.",
+    "נוגעים במים במרכז הצלחת עם אצבע נקייה: כמעט כלום לא קורה.",
+    "טובלים את קצה האצבע (או קיסם) בטיפת סבון, ונוגעים שוב במרכז. הפלפל בורח מיד לשולי הצלחת!"
+   ],
+   "why": "פני המים מתנהגים כמו קרום דק ומתוח, כי מולקולות המים מושכות זו את זו. לתופעה הזו קוראים מתח פנים, והיא זו שמאפשרת לפלפל הקל לצוף. הסבון מחליש את מתח הפנים במקום שבו הוא נוגע. המים שמסביב, שעדיין ״מתוחים״, מושכים החוצה לכיוון השוליים, ולוקחים איתם את הפלפל.",
+   "safety": "לא לגעת בעיניים אחרי שנוגעים בפלפל, ולשטוף ידיים בסוף.",
+   "image": {
+    "src": "assets/img/2026-10-08/pepper-soap.svg",
+    "alt": "איור: צלחת מים עם נקודות פלפל שבורחות מאצבע במרכז",
+    "caption": "איור מקורי: הפלפל בורח מהסבון",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=bOWKu8wGmjk",
+    "title": "Soap and Pepper Experiment!",
+    "channel": "Emily Calandrelli",
+    "lang": "אנגלית",
+    "duration": "4:16"
+   },
+   "think": "האם הניסוי יצליח שוב באותם מים? נסו ובדקו למה.",
+   "sources": [
+    {
+     "name": "Emily Calandrelli (יוטיוב)",
+     "title": "Soap and Pepper Experiment!",
+     "url": "https://www.youtube.com/watch?v=bOWKu8wGmjk",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "מתח פנים",
+     "url": "https://he.wikipedia.org/wiki/מתח_פנים"
+    }
+   ]
+  },
+  {
+   "id": "moon-phases",
+   "topic": "experiments",
+   "date": "2026-10-08",
+   "title": "הירח בחדר: מבינים את מופעי הירח עם מנורה וכדור",
+   "body": [
+    "למה הירח נראה פעם עגול, פעם חצי ופעם כמו פס דק? בונים מודל קטן בחדר חשוך ומגלים בעצמנו."
+   ],
+   "materials": [
+    "מנורה בלי אהיל (עדיף נורת לד שלא מתחממת)",
+    "כדור קטן בהיר (כדור קלקר או כדור טניס)",
+    "עיפרון או מקל לתקוע בכדור",
+    "חדר שאפשר להחשיך"
+   ],
+   "steps": [
+    "מדליקים את המנורה בצד אחד של החדר ומכבים את שאר האורות. המנורה היא השמש.",
+    "תוקעים את הכדור על העיפרון. הכדור הוא הירח, והראש שלכם הוא כדור הארץ.",
+    "עומדים מול המנורה ומחזיקים את הכדור ביד ישרה, מעט מעל הראש.",
+    "מסתובבים לאט במקום, נגד כיוון השעון, ומסתכלים על הכדור כל הזמן: רואים איך החלק המואר שלו גדל ומתמעט."
+   ],
+   "why": "השמש תמיד מאירה חצי מהירח. כשהירח מקיף את כדור הארץ, אנחנו רואים בכל פעם חלק אחר מהחצי המואר. כשהירח נמצא בין כדור הארץ לשמש, החצי המואר פונה הרחק מאיתנו, וכמעט לא רואים אותו. כשהוא בצד השני, כל החצי המואר פונה אלינו, ורואים ירח מלא. סיבוב שלם כזה לוקח כחודש.",
+   "safety": "לא להסתכל ישירות לתוך נורה חזקה, וללכת בזהירות בחדר חשוך.",
+   "image": {
+    "src": "assets/img/2026-10-08/moon-phases.svg",
+    "alt": "איור: מנורה, ילדה שמחזיקה כדור, וארבעה מופעים של הירח",
+    "caption": "איור מקורי: מודל מופעי הירח",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=Dnj6fQJjVXY",
+    "title": "Classroom Demonstrations: Phases of the Moon",
+    "channel": "Institute of Physics",
+    "lang": "אנגלית",
+    "duration": "1:24"
+   },
+   "think": "באיזה מופע נמצא הירח הערב? הסתכלו בשמיים ושרטטו מה ראיתם.",
+   "sources": [
+    {
+     "name": "Institute of Physics (יוטיוב)",
+     "title": "Classroom Demonstrations: Phases of the Moon",
+     "url": "https://www.youtube.com/watch?v=Dnj6fQJjVXY",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "מופע הירח",
+     "url": "https://he.wikipedia.org/wiki/מופע_הירח"
+    }
+   ]
+  },
+  {
+   "id": "lava-bottle",
+   "topic": "experiments",
+   "date": "2026-10-08",
+   "title": "בקבוק לבה: בועות צבעוניות שעולות ויורדות",
+   "body": [
+    "מכינים ״מנורת לבה״ פשוטה ממים, שמן וצבע מאכל, ומגלים למה שמן ומים לא מתערבבים."
+   ],
+   "materials": [
+    "בקבוק או כוס גבוהה ושקופה",
+    "מים (בערך רבע מהבקבוק)",
+    "שמן צמחי (בערך שלושה רבעים)",
+    "צבע מאכל",
+    "מלח (או טבלייה תוססת, רק עם מבוגר או מבוגרת)"
+   ],
+   "steps": [
+    "שופכים מים לבקבוק עד רבע הגובה, ואז ממלאים כמעט עד הסוף בשמן. מחכים שהשכבות ייפרדו.",
+    "מטפטפים כמה טיפות צבע מאכל: הן שוקעות דרך השמן ומצטרפות למים.",
+    "מפזרים כפית מלח מעל השמן, וצופים בבועות השמן שיורדות ואז עולות שוב.",
+    "רוצים בועות סוערות כמו בסרטון? מבוגר או מבוגרת מוסיפים רבע טבלייה תוססת."
+   ],
+   "why": "שמן ״קל״ יותר ממים בנפח שווה: יש לו צפיפות נמוכה יותר, ולכן הוא צף מעליהם. השמן והמים גם לא מתערבבים. צבע המאכל מתערבב רק עם המים. המלח כבד ושוקע וגורר איתו טיפות שמן למטה. כשהמלח מתמוסס במים, השמן משתחרר וצף שוב למעלה. הטבלייה התוססת משחררת בועות גז שמרימות איתן מים צבעוניים.",
+   "safety": "לא לשתות את התערובת. טבלייה תוססת היא תרופה: משתמשים בה רק עם מבוגר או מבוגרת, ולא אוכלים אותה.",
+   "image": {
+    "src": "assets/img/2026-10-08/lava-bottle.svg",
+    "alt": "איור: בקבוק עם שכבת מים צבעונית ובועות שעולות בשמן",
+    "caption": "איור מקורי: בקבוק לבה",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=j3FPHiprqso",
+    "title": "Alka Seltzer Lava Lamp Experiment",
+    "channel": "Science Made FUN!",
+    "lang": "אנגלית, בגרסה עם טבלייה תוססת",
+    "duration": "3:53"
+   },
+   "think": "מה יקרה אם נשתמש בדבש במקום בשמן? נחשו קודם, ובדקו עם מבוגר או מבוגרת.",
+   "sources": [
+    {
+     "name": "Science Made FUN! (יוטיוב)",
+     "title": "Alka Seltzer Lava Lamp Experiment",
+     "url": "https://www.youtube.com/watch?v=j3FPHiprqso",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "צפיפות",
+     "url": "https://he.wikipedia.org/wiki/צפיפות"
+    }
+   ]
+  }
+ ]
+}
