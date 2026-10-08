@@ -1,4 +1,4 @@
-/* בוקר טוב עולמי · app.js – persistent nav, TTS (he-IL), archive search */
+/* בוקר טוב עולמי · app.js – persistent nav, TTS (he-IL), archive search, personal topic filter */
 (function(){
 "use strict";
 function $(s,r){return (r||document).querySelector(s);}
@@ -30,6 +30,44 @@ $$("[data-tts]").forEach(function(b){b.addEventListener("click",function(){
 });});
 $$("[data-tts-stop]").forEach(function(b){b.addEventListener("click",function(){TTS.stop();var n=b.parentNode.querySelector(".tts-note");if(n)n.textContent="";});});
 window.addEventListener("beforeunload",function(){TTS.stop();});
+/* personal topic filter: chosen topics open + first; others collapsed headers that open on tap.
+   Saved per browser in localStorage "kitaBoker:topics" (JSON array). Nothing saved = all topics open. */
+var tf=$("#tfilter"),TKEY="kitaBoker:topics";
+var secs=$$("section.topic[data-topic]");
+function secOpen(sec,o){var b=$(".topic-tog",sec),body=$(".topic-body",sec);if(!b||!body)return;
+ body.hidden=!o;sec.classList.toggle("collapsed",!o);b.setAttribute("aria-expanded",o?"true":"false");}
+secs.forEach(function(sec){var b=$(".topic-tog",sec);if(b)b.addEventListener("click",function(){var o=b.getAttribute("aria-expanded")!=="true";secOpen(sec,o);if(!o)TTS.stop();});});
+document.documentElement.classList.add("tf-js");
+if(tf&&secs.length){
+ var grid=$("#topics-grid"),orig=grid?$$("section.topic",grid):[],boxes=$$(".tf-opts input",tf),panel=$("#tf-panel"),tgl=$("#tf-toggle"),all=$("#tf-all"),status=$("#tf-status");
+ var names={};boxes.forEach(function(x){names[x.value]=x.parentNode.textContent.trim();});
+ var load=function(){try{var v=JSON.parse(LS.get(TKEY)||"null");return (v&&v.length)?v.filter(function(k){return /^[a-z]+$/.test(k);}):[];}catch(e){return [];}};
+ var apply=function(sel){
+  var on=sel.length>0;
+  secs.forEach(function(sec){secOpen(sec,!on||sel.indexOf(sec.getAttribute("data-topic"))>-1);sec.classList.toggle("mine",on&&sel.indexOf(sec.getAttribute("data-topic"))>-1);});
+  if(grid){var mine=orig.filter(function(s){return !on||sel.indexOf(s.getAttribute("data-topic"))>-1;}),rest=orig.filter(function(s){return mine.indexOf(s)<0;});mine.concat(rest).forEach(function(s){grid.appendChild(s);});}
+  boxes.forEach(function(x){x.checked=sel.indexOf(x.value)>-1;});
+  all.hidden=!on;
+  var shown=sel.filter(function(k){return names[k];}).map(function(k){return names[k];});
+  status.textContent=!on?"כרגע מוצגים כל הנושאים.":(shown.length?"הנושאים שלכם, תמיד פתוחים: "+shown.join(", ")+". שאר הנושאים סגורים, ואפשר לפתוח כל אחד בלחיצה על הכותרת.":"הנושאים שבחרתם לא מופיעים במהדורה הזו, ולכן כל הנושאים כאן סגורים. אפשר לפתוח כל נושא בלחיצה על הכותרת.");
+  var pre=document.getElementById("tf-pre");if(pre)pre.parentNode.removeChild(pre);
+ };
+ var save=function(sel){if(sel.length)LS.set(TKEY,JSON.stringify(sel));else{try{localStorage.removeItem(TKEY);}catch(e){}}apply(sel);};
+ var panelSet=function(o){panel.hidden=!o;tgl.setAttribute("aria-expanded",o?"true":"false");};
+ tf.hidden=false;apply(load());
+ tgl.addEventListener("click",function(){panelSet(panel.hidden);if(!panel.hidden&&boxes[0])boxes[0].focus();});
+ boxes.forEach(function(x){x.addEventListener("change",function(){var keep=load().filter(function(k){return !names[k];});save(keep.concat(boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;})));});});
+ $("#tf-done").addEventListener("click",function(){panelSet(false);tgl.focus();});
+ var reset=function(){save([]);};
+ $("#tf-reset").addEventListener("click",function(){reset();panelSet(false);tgl.focus();});
+ all.addEventListener("click",function(){reset();tgl.focus();});
+ panel.addEventListener("keydown",function(ev){if(ev.key==="Escape"){panelSet(false);tgl.focus();}});
+}
+/* a link to a topic or a story inside a collapsed topic (chips, archive, topic pages) opens it */
+function openForHash(){var h=location.hash.slice(1);if(!h)return;var el=document.getElementById(h);if(!el)return;var sec=el.closest?el.closest("section.topic[data-topic]"):null;
+ if(sec&&sec.classList.contains("collapsed")){secOpen(sec,true);setTimeout(function(){el.scrollIntoView();},0);}}
+openForHash();window.addEventListener("hashchange",openForHash);
+$$('a[href^="#sec-"]').forEach(function(a){a.addEventListener("click",function(){var sec=document.getElementById(a.getAttribute("href").slice(1));if(sec&&sec.classList.contains("collapsed"))secOpen(sec,true);});});
 /* archive search */
 var q=$("#q");
 if(q){q.addEventListener("input",function(){var v=q.value.trim().toLowerCase(),any=false;

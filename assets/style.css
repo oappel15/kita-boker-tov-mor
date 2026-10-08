@@ -1,6 +1,7 @@
 /* בוקר טוב עולמי · morning-pastel theme */
 :root{--bg:#FFFAF2;--ink:#3A3350;--muted:#6E6787;--line:#F0E3D3;--sun:#FFD66B;--peach:#FFD9C4;--sky:#D7EEFB;--rad:22px;--footh:52px}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.7 "Assistant",system-ui,sans-serif;padding-bottom:calc(var(--footh) + 24px)}
 h1,h2,h3,h4,h5,.tag,.ribbon,.btn,.chip,.nav-toggle,nav a{font-family:"Varela Round","Assistant",sans-serif}
@@ -87,6 +88,37 @@ h4{margin:10px 0 4px;color:var(--ti);font-size:18px}
 .src{color:var(--muted)}
 .imgcred,.note{color:var(--muted);font-size:14px;margin:6px 0 0;overflow-wrap:anywhere}
 .pn{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:28px 0;font-weight:600}
+/* personal topic filter (Mor's site only) */
+.topic-h h2{display:flex}
+.topic-tog{all:unset;display:flex;flex-wrap:wrap;align-items:center;gap:2px 10px;color:var(--ti);font:inherit;border-radius:14px}
+.tf-js .topic-tog{cursor:pointer}
+.tf-js .topic-tog:hover .tt-name{text-decoration:underline;text-decoration-thickness:2px}
+.topic-tog:focus-visible{outline:3px solid #9B7BFF;outline-offset:3px}
+.tt-meta{font-family:"Assistant",sans-serif;font-size:15px;font-weight:600;background:rgba(255,255,255,.7);border-radius:999px;padding:0 10px}
+.tt-hint{display:none}
+.tt-ico{display:none;width:28px;height:28px;border-radius:50%;background:#fff;border:2px solid var(--tc);position:relative;flex:none}
+.tf-js .tt-ico{display:inline-block}
+.tt-ico::before{content:"";position:absolute;top:50%;left:50%;width:7px;height:7px;border-left:3px solid var(--ti);border-bottom:3px solid var(--ti);transform:translate(-50%,-70%) rotate(-45deg)}
+.topic.collapsed{padding-bottom:12px;background:var(--tc)}
+.topic.collapsed .topic-h{padding-bottom:0}
+.topic.collapsed .tt-hint{display:inline}
+.topic.collapsed .tt-ico::before{transform:translate(-30%,-50%) rotate(45deg)}
+.topic.mine .tt-name::after{content:" ⭐";font-size:.7em}
+.tfilter{margin:4px auto 0;max-width:760px}
+.tf-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center}
+.tf-toggle{background:#FFE7A8;border-color:#F5C343;color:#5A4300;font-size:17px}
+.tf-toggle:hover{background:#FFDD85}
+.tf-toggle[aria-expanded="true"]{background:#FFD66B}
+.tf-status{margin:6px 0 0;font-size:15px;color:var(--muted)}
+.tf-panel{background:#fff;border:2px dashed #F5C343;border-radius:var(--rad);padding:10px 16px 12px;margin:10px 0 0;text-align:right}
+.tf-help{margin:0 0 6px;font-size:16px}
+.tf-opts{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.tf-opts legend{font-family:"Varela Round",sans-serif;color:#4A3A7A;padding:0;margin-bottom:6px}
+.tf-opt{display:inline-flex;align-items:center;gap:6px;background:var(--tc);color:var(--ti);border:2px solid rgba(0,0,0,.06);border-radius:999px;padding:5px 14px 5px 12px;font-size:16px;cursor:pointer;min-height:40px}
+.tf-opt input{width:20px;height:20px;margin:0;accent-color:var(--ti);cursor:pointer}
+.tf-opt:has(input:checked){border-color:var(--ti);box-shadow:0 2px 0 var(--ti)}
+.tf-opt:has(input:focus-visible){outline:3px solid #9B7BFF;outline-offset:2px}
+.tf-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 /* archive */
 .searchrow input{font:inherit;border:2px solid var(--line);border-radius:999px;padding:6px 14px;width:min(100%,340px)}
 .arch{background:#fff;border-radius:var(--rad);padding:12px 18px;margin:14px 0;border:2px solid var(--line)}
@@ -114,4 +146,4 @@ h4{margin:10px 0 4px;color:var(--ti);font-size:18px}
  :root{--footh:58px}
 }
 @media (prefers-reduced-motion:reduce){.sun{animation:none}html{scroll-behavior:auto}}
-@media print{.navwrap,.sitefoot,.tts,.skip,.sky{display:none!important}body{padding:0}.item{break-inside:avoid;box-shadow:none}}
+@media print{.navwrap,.sitefoot,.tts,.skip,.sky,.tfilter,.tt-ico,.tt-hint{display:none!important}.topic-body[hidden]{display:grid!important}body{padding:0}.item{break-inside:avoid;box-shadow:none}}

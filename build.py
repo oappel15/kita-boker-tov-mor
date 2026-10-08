@@ -93,6 +93,7 @@ def head(title, desc):
 <body class="nav-open">
 <a class="skip" href="#main">דילוג לתוכן</a>
 <script>try{{if(localStorage.getItem("kitaBoker:nav")==="0"||(localStorage.getItem("kitaBoker:nav")===null&&innerWidth<760))document.body.classList.remove("nav-open")}}catch(e){{}}</script>
+<script>/* topic filter: collapse unchosen topics before first paint (app.js takes over) */try{{var k=JSON.parse(localStorage.getItem("kitaBoker:topics")||"null");if(k&&k.length){{var c=k.filter(function(x){{return /^[a-z]+$/.test(x)}}).map(function(x){{return ':not([data-topic="'+x+'"])'}}).join("");var st=document.createElement("style");st.id="tf-pre";st.textContent=".topic"+c+" > .topic-body{{display:none}}";document.head.appendChild(st)}}}}catch(e){{}}</script>
 """
 
 def nav(topics, active):
@@ -160,23 +161,43 @@ def article(it, ed, tmap, show_edition=False):
 <details class="credits" open><summary>מקורות וקרדיטים</summary><h5>📰 מקורות המידע</h5><ul>{"".join(link_li(s) for s in it['sources'])}</ul>{more}<p class="imgcred">{img_credit(it['image'])}</p><p class="note">הידיעה נכתבה במילים שלנו על סמך המקורות.</p></details>
 </div></article>"""
 
+def count_label(n, exp):
+    if exp: return "ניסוי אחד" if n == 1 else f"{n} ניסויים"
+    return "ידיעה אחת" if n == 1 else f"{n} ידיעות"
+
+def topic_filter(present):
+    """Personal topic filter (Mor's request 2026-10-08, her site only). Hidden without JS; app.js wires it up.
+    Saved per browser in localStorage 'kitaBoker:topics'. No saved choice = all topics open."""
+    boxes = "".join(f'<label class="tf-opt" style="--tc:{t["color"]};--ti:{t["ink"]}"><input type="checkbox" value="{t["key"]}"> {t["emoji"]} {e(t["name"])}</label>' for t in present)
+    return f"""<section class="tfilter" id="tfilter" hidden aria-label="סינון נושאים">
+<div class="tf-bar"><button type="button" id="tf-toggle" class="btn tf-toggle" aria-expanded="false" aria-controls="tf-panel">🎯 בחרו את הנושאים שלכם</button>
+<button type="button" id="tf-all" class="btn sm ghost" hidden>👀 הצגת כל הנושאים</button></div>
+<p id="tf-status" class="tf-status" aria-live="polite">כרגע מוצגים כל הנושאים.</p>
+<div id="tf-panel" class="tf-panel" hidden>
+<p class="tf-help">תלמידים ותלמידות (וגם מבוגרים ומבוגרות): סמנו את הנושאים שהכי מעניינים אתכם. הם יוצגו תמיד פתוחים ובראש העמוד, ושאר הנושאים יופיעו כשורת כותרת סגורה. כדי לפתוח נושא סגור, לוחצים על הכותרת שלו. הבחירה נשמרת רק בדפדפן הזה.</p>
+<fieldset class="tf-opts"><legend>הנושאים שלי</legend>{boxes}</fieldset>
+<div class="tf-actions"><button type="button" id="tf-done" class="btn sm">✓ סיום</button><button type="button" id="tf-reset" class="btn sm ghost">↺ איפוס: להציג את כל הנושאים</button></div>
+</div></section>"""
+
 def edition_body(ed, topics, tmap, eds):
-    chips = []; secs = []; exps = []
+    chips = []; secs = []; exps = []; present = []
     for t in topics:
         its = [i for i in ed["items"] if i["topic"] == t["key"]]
         if not its: continue
-        sid = f"sec-{t['key']}"
+        present.append(t)
+        sid = f"sec-{t['key']}"; isexp = t["key"] == "experiments"
         chips.append(f'<a class="chip" style="--tc:{t["color"]};--ti:{t["ink"]}" href="#{sid}">{t["emoji"]} {e(t["name"])}</a>')
-        (exps if t["key"] == "experiments" else secs).append(f"""<section class="topic" id="{sid}" style="--tc:{t['color']};--ti:{t['ink']}"><div class="topic-h"><h2>{t['emoji']} בוקר טוב {e(t['name'])}</h2><a href="topic-{t['key']}.html">כל הידיעות של בוקר טוב {e(t['name'])} ←</a></div>
-<div class="grid">{"".join(article(i, ed, tmap) for i in its)}</div></section>""")
+        (exps if isexp else secs).append(f"""<section class="topic" id="{sid}" data-topic="{t['key']}" style="--tc:{t['color']};--ti:{t['ink']}"><div class="topic-h"><h2><button type="button" class="topic-tog" aria-expanded="true" aria-controls="{sid}-body"><span class="tt-name">{t['emoji']} בוקר טוב {e(t['name'])}</span><span class="tt-meta">{count_label(len(its), isexp)}<span class="tt-hint"> · לחצו לפתיחה</span></span><span class="tt-ico" aria-hidden="true"></span></button></h2><a href="topic-{t['key']}.html">כל הידיעות של בוקר טוב {e(t['name'])} ←</a></div>
+<div class="grid topic-body" id="{sid}-body">{"".join(article(i, ed, tmap) for i in its)}</div></section>""")
     i = [x["date"] for x in eds].index(ed["date"])
     newer = eds[i-1] if i > 0 else None; older = eds[i+1] if i + 1 < len(eds) else None
     pn = '<nav class="pn" aria-label="מהדורות">' + (f'<a href="edition-{older["date"]}.html">→ המהדורה הקודמת ({e(heb_date(older["date"]))})</a>' if older else "<span></span>") + \
          (f'<a href="edition-{newer["date"]}.html">המהדורה הבאה ({e(heb_date(newer["date"]))}) ←</a>' if newer else '<a href="archive.html">לכל המהדורות בארכיון ←</a>') + "</nav>"
+    tf = topic_filter(present) if len(present) > 1 else ""
     return f"""<div class="edhead"><p class="ribbon">מהדורה {e(ed['number'])} · {e(heb_date(ed['date'], True))}</p><h2 class="edtitle">{e(ed['title'])}</h2>
 <p class="intro tts-src" id="intro">{e(ed['intro'])}</p>
 <div class="tts center"><button type="button" class="btn sm" data-tts=".item h3">🔊 להקריא את כל הכותרות</button><button type="button" class="btn sm ghost" data-tts="#intro">🔊 הקראת הפתיח</button><button type="button" class="btn sm ghost" data-tts-stop>⏹ עצירה</button><span class="tts-note" aria-live="polite"></span></div>
-<nav class="chips" aria-label="נושאים במהדורה">{"".join(chips)}</nav></div><div class="topics-grid">{"".join(secs)}</div>{"".join(exps)}{pn}"""
+<nav class="chips" aria-label="נושאים במהדורה">{"".join(chips)}</nav>{tf}</div><div class="topics-grid" id="topics-grid">{"".join(secs)}</div>{"".join(exps)}{pn}"""
 
 def write(name, html_text):
     with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f: f.write(html_text)
