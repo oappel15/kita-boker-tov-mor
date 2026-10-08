@@ -156,7 +156,7 @@ def article(it, ed, tmap, show_edition=False):
 <h3 class="tts-src">{e(it['title'])}</h3><p class="when">{e(heb_date(it['date']))} {edl}</p>
 <div class="tts-src body">{paras}</div>{extra}{vid}
 <p class="think"><b>💬 לחשוב ולשוחח:</b> {e(it['think'])}</p>
-<div class="tts"><button type="button" class="btn sm" data-tts="#{aid} .tts-src">🔊 הקראה</button><button type="button" class="btn sm ghost" data-tts="#{aid} .tts-src" data-slow>🐢 לאט</button><button type="button" class="btn sm ghost" data-tts-stop>⏹ עצירה</button><span class="tts-note" aria-live="polite"></span></div>
+<div class="tts"><button type="button" class="btn sm" data-tts="@item">🔊 הקראה</button><button type="button" class="btn sm ghost" data-tts="@item" data-slow>🐢 לאט</button><button type="button" class="btn sm ghost" data-tts-stop>⏹ עצירה</button><span class="tts-note" aria-live="polite"></span></div>
 <details class="credits" open><summary>מקורות וקרדיטים</summary><h5>📰 מקורות המידע</h5><ul>{"".join(link_li(s) for s in it['sources'])}</ul>{more}<p class="imgcred">{img_credit(it['image'])}</p><p class="note">הידיעה נכתבה במילים שלנו על סמך המקורות.</p></details>
 </div></article>"""
 

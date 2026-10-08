@@ -23,7 +23,9 @@ window.KitaTTS=TTS;
 $$("[data-tts]").forEach(function(b){b.addEventListener("click",function(){
  var note=b.parentNode.querySelector(".tts-note");
  if(!TTS.ok){if(note)note.textContent="הדפדפן הזה לא תומך בהקראה. נסו Chrome, Edge או Safari.";return;}
- TTS.speak($$(b.getAttribute("data-tts")),b.hasAttribute("data-slow")?.75:.95);
+ var sel=b.getAttribute("data-tts"),art=b.closest("article");
+ var els=(sel==="@item"&&art)?$$(".tts-src",art):$$(sel);
+ TTS.speak(els,b.hasAttribute("data-slow")?.75:.95);
  if(note)note.textContent=TTS.voice()?"מקריאים... אפשר לעצור בכל רגע.":"מקריאים. אם לא שומעים, ייתכן שאין במכשיר קול בעברית: אפשר להוסיף קול עברית בהגדרות, או לנסות Chrome או Edge.";
 });});
 $$("[data-tts-stop]").forEach(function(b){b.addEventListener("click",function(){TTS.stop();var n=b.parentNode.querySelector(".tts-note");if(n)n.textContent="";});});
