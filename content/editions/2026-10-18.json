@@ -2,7 +2,7 @@
  "date": "2026-10-18",
  "number": 3,
  "title": "מהדורה 3: קולות, עלים ודלעת ענקית",
- "intro": "בוקר טוב לכולם ולכולן! במהדורה השלישית: חללית שהביאה ניסויים לתחנת החלל, שבב שעזר לאדם לדבר שוב בקולו, טיפול שעוזר לילדים וילדות לשמוע, נימפאה ענקית שהתגלתה בזכות תמונה ברשת, טיול לספרייה, רוכב אופניים מהיר במיוחד, הרבה חשמל מהשמש, ציפורים שמקשיבות אחרת ודלעת ענקית. ובסוף: שני ניסויים לבית ולכיתה. קריאה נעימה!",
+ "intro": "בוקר טוב לכולם ולכולן! במהדורה השלישית: חללית שהביאה ניסויים לתחנת החלל, שבב שעזר לאדם לדבר שוב בקולו, טיפול שעוזר לילדים וילדות לשמוע, נימפאה ענקית שהתגלתה בזכות תמונה ברשת, מכונית ספורט חשמלית שקופצת עם דחפים של חללית, טיול לספרייה, רוכב אופניים מהיר במיוחד, הרבה חשמל מהשמש, ציפורים שמקשיבות אחרת ודלעת ענקית. ובסוף: שני ניסויים לבית ולכיתה. קריאה נעימה!",
  "items": [
   {
    "id": "spacex-crs35-dragon",
@@ -206,6 +206,67 @@
      "name": "ויקיפדיה",
      "title": "ויקטוריה מלכותית",
      "url": "https://he.wikipedia.org/wiki/ויקטוריה_מלכותית"
+    }
+   ]
+  },
+  {
+   "id": "tesla-roadster",
+   "topic": "technology",
+   "date": "2026-10-15",
+   "title": "טסלה הציגה רודסטר חדש: מכונית ספורט חשמלית שקופצת עם דחפים של חללית",
+   "body": [
+    "ב־15 באוקטובר הציגה חברת טסלה את הדור החדש של הרודסטר, מכונית ספורט חשמלית עם שני מושבים. מהנדסים ומהנדסות של טסלה פיתחו אותה יחד עם חברת החלל ספייס אקס, וההצגה נערכה באתר הניסויים של ספייס אקס בטקסס.",
+    "בהדגמה, מאווררים חזקים מתחת למכונית יצרו יניקה שהצמידה אותה למסלול מעוקל, והיא נסעה עליו כמעט הפוכה. אחר כך דחפים שפולטים אוויר דחוס, כמו בחללית, הקפיצו אותה לאוויר. היא הסתובבה ונחתה בעדינות, ובהדגמה אחרת אפילו קפצה מעל משאית. לפי שעון המדידה של טסלה, היא האיצה מעמידה ל־97 קמ״ש בפחות משנייה.",
+    "חשוב לדעת: זה עדיין אב־טיפוס. טסלה מתכננת להתחיל לייצר את המכונית ב־2028, וגרסת הקפיצות לא מיועדת לכבישים רגילים."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/roadster.jpg",
+    "alt": "מכונית ספורט כסופה ונמוכה מוצגת על במה, ומאחוריה קהל",
+    "caption": "תמונת המחשה: אב־הטיפוס הקודם של הרודסטר, שהוצג ב־2017. הדגם החדש נראה אחרת",
+    "credit": "Smnt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tesla_roadster_2020_prototype_(cropped).jpg"
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=qt5p-_tE8d0&t=363s",
+    "title": "Roadster Event (ההדגמות מתחילות בדקה 6)",
+    "channel": "Tesla",
+    "lang": "אנגלית",
+    "duration": "23:21"
+   },
+   "think": "אילו עוד רעיונות מעולם החלל הייתם רוצים ורוצות לראות בחיים שלנו על כדור הארץ? ולמה כדאי לבדוק המצאות כאלה בזהירות לפני שהן יוצאות לכביש?",
+   "sources": [
+    {
+     "name": "Reuters (באתר Investing.com)",
+     "title": "Tesla's new Roadster turns in air with SpaceX thrusters, won't land until 2028",
+     "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "CNBC",
+     "title": "Tesla unveils long-delayed Roadster developed with SpaceX",
+     "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Car and Driver",
+     "title": "Revealed! New Tesla Roadster Takes Flight with SpaceX Thrusters",
+     "url": "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "Road & Track",
+     "title": "Watch the Tesla Roadster Fly, Flip, and Launch from 0-60 MPH in Under 1 Second",
+     "url": "https://www.roadandtrack.com/news/a74159440/tesla-roadster-flip-float-launch-control-0-60-mph-videos/",
+     "date": "2026-10-16"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "טסלה רודסטר",
+     "url": "https://he.wikipedia.org/wiki/טסלה_רודסטר"
     }
    ]
   },

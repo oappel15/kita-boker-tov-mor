@@ -1,6 +1,7 @@
 [
  {"key":"space","name":"חלל","emoji":"🚀","color":"#E6DEFF","ink":"#5B45A8"},
  {"key":"science","name":"מדע","emoji":"🔬","color":"#D3F3E6","ink":"#21795A"},
+ {"key":"technology","name":"טכנולוגיה ותחבורה","emoji":"🚗","color":"#E2E8F2","ink":"#3B4A66"},
  {"key":"education","name":"חינוך","emoji":"📚","color":"#FFF0B5","ink":"#8A6400"},
  {"key":"medicine","name":"רפואה","emoji":"🩺","color":"#FFDDE5","ink":"#A63A5A"},
  {"key":"sports","name":"ספורט","emoji":"🏅","color":"#D5EBFF","ink":"#24609E"},
