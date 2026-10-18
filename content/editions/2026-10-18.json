@@ -1,0 +1,515 @@
+{
+ "date": "2026-10-18",
+ "number": 3,
+ "title": "מהדורה 3: קולות, עלים ודלעת ענקית",
+ "intro": "בוקר טוב לכולם ולכולן! במהדורה השלישית: חללית שהביאה ניסויים לתחנת החלל, שבב שעזר לאדם לדבר שוב בקולו, טיפול שעוזר לילדים וילדות לשמוע, נימפאה ענקית שהתגלתה בזכות תמונה ברשת, טיול לספרייה, רוכב אופניים מהיר במיוחד, הרבה חשמל מהשמש, ציפורים שמקשיבות אחרת ודלעת ענקית. ובסוף: שני ניסויים לבית ולכיתה. קריאה נעימה!",
+ "items": [
+  {
+   "id": "spacex-crs35-dragon",
+   "topic": "space",
+   "date": "2026-10-15",
+   "title": "ספייס אקס: חללית דרקון הביאה לתחנת החלל ניסויים, אוכל ולוחות סולאריים",
+   "body": [
+    "ב־13 באוקטובר שיגרה חברת ספייס אקס טיל פלקון 9 מפלורידה. בראשו טסה חללית המטען דרקון, בלי אנשים בתוכה, אל תחנת החלל הבין־לאומית. אחרי טיסה של יותר מיומיים, ב־15 באוקטובר, היא התחברה לתחנה לבד, באופן אוטומטי.",
+    "בחללית היו יותר מ־2,800 קילוגרם של אוכל, ציוד וניסויים מדעיים. למשל: ציוד לייצור רשתיות מלאכותיות לעין, שאולי יעזרו בעתיד לאנשים לראות, ומודלים של רקמת לב שיעזרו לבדוק תרופות. מאחור הגיע גם הזוג האחרון של לוחות סולאריים חדשים, שנפתחים בגלילה כמו שטיח ויוסיפו לתחנה חשמל.",
+    "ארבעה מאנשי הצוות בתחנה, שלושה אסטרונאוטים ואסטרונאוטית אחת, כבר פתחו את הדלת, התחילו לפרוק את המטען ולהפעיל את הניסויים. באמצע נובמבר החללית תחזור לכדור הארץ עם תוצאות של מחקרים."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/dragon.jpg",
+    "alt": "חללית דרקון לבנה מתקרבת לתחנת החלל, ומאחוריה החלל השחור",
+    "caption": "תמונת המחשה: חללית מטען דרקון מתקרבת לתחנת החלל במשימה קודמת",
+    "credit": "NASA Johnson Space Center",
+    "license": "Public domain",
+    "license_url": "",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_SpaceX_Dragon_cargo_spacecraft_approaches_the_International_Space_Station_(iss074e0586405).jpg"
+   },
+   "video": null,
+   "think": "אם הייתם יכולים ויכולות לשלוח ניסוי אחד לתחנת החלל, מה הייתם רוצים לבדוק בלי כוח משיכה?",
+   "sources": [
+    {
+     "name": "NASA",
+     "title": "SpaceX Dragon Docks with Science, Supplies, and Roll-Out Solar Arrays",
+     "url": "https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-docks-with-science-supplies-and-roll-out-solar-arrays/",
+     "date": "2026-10-15"
+    },
+    {
+     "name": "NASA",
+     "title": "Crew Unpacks Dragon and Begins Activating New Science Experiments",
+     "url": "https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/",
+     "date": "2026-10-16"
+    },
+    {
+     "name": "Spaceflight Now",
+     "title": "Launch preview: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station",
+     "url": "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station/",
+     "date": "2026-10-13"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "דרגון 2 (חללית)",
+     "url": "https://he.wikipedia.org/wiki/דרגון_2_(חללית)"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "תחנת החלל הבין-לאומית",
+     "url": "https://he.wikipedia.org/wiki/תחנת_החלל_הבין-לאומית"
+    }
+   ]
+  },
+  {
+   "id": "neuralink-voice",
+   "topic": "medicine",
+   "date": "2026-09-18",
+   "title": "נוירולינק: שבב במוח עזר לטרי לדבר שוב בקול שלו",
+   "body": [
+    "טרי חולה במחלה בשם ALS, שפוגעת בשרירים. בגלל המחלה קשה מאוד להבין את הדיבור שלו. הוא הצטרף לניסוי של חברת נוירולינק, וקיבל שבב קטן שהושתל באזור במוח ששולט בדיבור.",
+    "השבב קולט אותות של תאי עצב, ותוכנת מחשב מתרגמת אותם למילים. המילים מופיעות על המסך ונשמעות בקול ממוחשב שנבנה מהקלטות של טרי מלפני המחלה, כך שהקול נשמע כמו שלו. בהתחלה הוא אימן את המערכת כשניסה להגיד משפטים, ואחר כך כשרק חשב על המילים.",
+    "בסרטון שפרסמה החברה ב־18 בספטמבר 2026 (זה העדכון האחרון של נוירולינק שעוד לא הופיע אצלנו), טרי אומר לאשתו ״אני אוהב אותך״. זה עדיין ניסוי מחקרי בכמה אנשים בלבד, והמכשיר עוד לא אושר לשימוש רגיל."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/neuralink-voice.svg",
+    "alt": "איור: ראש עם שבב קטן, גלי קול ובועת דיבור",
+    "caption": "איור מקורי: מחשבה שהופכת לדיבור",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": {
+    "url": "https://www.youtube.com/watch?v=_j806JHhCRo",
+    "title": "Speaking With The Mind | Neuralink",
+    "channel": "Neuralink",
+    "lang": "אנגלית",
+    "duration": "6:56"
+   },
+   "think": "אילו עוד דרכים יש לאנשים לתקשר כשקשה להם לדבר? חשבו ביחד על שלוש.",
+   "sources": [
+    {
+     "name": "Inside BCI",
+     "title": "Neuralink discloses direct thought-to-audio speech decoding in ALS participant Terry, the VOICE trial's third implantee",
+     "url": "https://insidebci.com/news/2026-09-23-neuralink-voice-trial-terry-als-third-participant-grok-voice-thought-to-audio/",
+     "date": "2026-09-23"
+    },
+    {
+     "name": "MobiHealthNews",
+     "title": "Neuralink brain implant helps man with ALS speak using his thoughts",
+     "url": "https://www.mobihealthnews.com/news/neuralink-brain-implant-helps-man-als-speak-using-his-thoughts",
+     "date": "2026-09-23"
+    },
+    {
+     "name": "Neuralink (יוטיוב)",
+     "title": "Speaking With The Mind",
+     "url": "https://www.youtube.com/watch?v=_j806JHhCRo",
+     "date": "2026-09-18"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "ממשק מוח-מחשב",
+     "url": "https://he.wikipedia.org/wiki/ממשק_מוח-מחשב"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "טרשת אמיוטרופית צידית (ALS)",
+     "url": "https://he.wikipedia.org/wiki/טרשת_אמיוטרופית_צידית"
+    }
+   ]
+  },
+  {
+   "id": "hearing-gene-therapy",
+   "topic": "medicine",
+   "date": "2026-10-08",
+   "title": "חידוש ברפואה: טיפול גנטי עוזר לילדים וילדות שנולדו חירשים לשמוע",
+   "body": [
+    "יש ילדים וילדות שנולדים חירשים בגלל שינוי בגן אחד, שנקרא OTOF. הגן הוא כמו ״מתכון״ לחלבון שמעביר את הצלילים מהאוזן הפנימית אל עצב השמיעה. בלי החלבון, הצלילים לא מגיעים למוח.",
+    "בטיפול החדש מכניסים לאוזן הפנימית, פעם אחת בלבד, עותק תקין של הגן. בבית החולים לילדים בסינסינטי שבארצות הברית קיבלו את הטיפול אח ואחות. האח קיבל את הטיפול בגיל 3, והתחיל לשמוע צלילים אחרי ארבעה שבועות. היום השמיעה שלו בטווח הרגיל והוא מתחיל לדבר. גם אחותו הקטנה שומעת הרבה יותר טוב.",
+    "במחקר, אצל 9 מתוך 12 המשתתפים הראשונים השמיעה השתפרה מאוד. באפריל השנה אושר הטיפול בארצות הברית. הוא מתאים רק לסוג נדיר אחד של חירשות, וחוקרים וחוקרות עובדים על טיפולים לסוגים נוספים."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/hearing.svg",
+    "alt": "איור: אוזן, גלי קול ותווים צבעוניים",
+    "caption": "איור מקורי: צלילים מגיעים לאוזן",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "יש אנשים חירשים שמרגישים שהחירשות היא חלק מהזהות שלהם ומדברים בשפת הסימנים. למה חשוב לשמוע ולכבד גם את הדעה שלהם?",
+   "sources": [
+    {
+     "name": "Cincinnati Children's (PR Newswire)",
+     "title": "Gene Therapy Brings Hearing to Children with Inherited Deafness",
+     "url": "https://www.prnewswire.com/news-releases/gene-therapy-brings-hearing-to-children-with-inherited-deafness-302901801.html",
+     "date": "2026-10-08"
+    },
+    {
+     "name": "Nature",
+     "title": "Restoring hearing in people with a rare form of deafness",
+     "url": "https://www.nature.com/articles/d41586-026-02894-7",
+     "date": "2026-09-30"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "ריפוי גני",
+     "url": "https://he.wikipedia.org/wiki/ריפוי_גני"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "שמיעה",
+     "url": "https://he.wikipedia.org/wiki/שמיעה"
+    }
+   ]
+  },
+  {
+   "id": "giant-waterlily",
+   "topic": "science",
+   "date": "2026-10-09",
+   "title": "מין חדש של נימפאה ענקית התגלה, בזכות תמונה ברשת",
+   "body": [
+    "לנימפאות הענקיות יש עלים עגולים ושטוחים שצפים על המים. עכשיו תואר מין חדש שלהן בקולומביה, ויקטוריה קולומביאנה, עם עלים ברוחב של עד 2 מטרים.",
+    "הכול התחיל לפני חמש שנים, כשמומחה לנימפאות מהגנים הבוטניים קיו שבלונדון ראה באינסטגרם תמונות מנהר בקולומביה. הוא חשד שזה מין חדש, כי באזור הזה לא היו אמורות לגדול נימפאות ענקיות. הוא חיפש בתצלומי לוויין, וגילה שם עלים ענקיים.",
+    "במשלחת מצאו בהתחלה רק צמחים בלי פרחים, ובלי פרח קשה לקבוע שזה מין חדש. בלילה האחרון, כמה שעות לפני הטיסה הביתה, מדריך מקהילה ילידית מקומית הוביל את הצוות בסירה בחושך, ולפני הזריחה מצאו צמח פורח. בטבע יש רק כ־30 עד 50 צמחים מהמין הזה, ועכשיו רוצים לשמור עליו."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/waterlily.jpg",
+    "alt": "עלים עגולים וענקיים של נימפאה צפים על מים, עם שוליים מורמים",
+    "caption": "תמונת המחשה: עלים של נימפאה ענקית ממין אחר (ויקטוריה מלכותית) בגן בוטני בהודו",
+    "credit": "Biswarup Ganguly",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Victoria_amazonica_Leaves_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1697.JPG"
+   },
+   "video": null,
+   "think": "המין החדש התגלה בזכות שיתוף פעולה של מדענים, מדריך מקומי ותמונה ברשת. איך גם אתם ואתן יכולים לעזור למדע?",
+   "sources": [
+    {
+     "name": "Royal Botanic Gardens, Kew",
+     "title": "New giant waterlily species described after chance Instagram sighting",
+     "url": "https://www.kew.org/about-us/press-media/victoria-colombiana-giant-waterlily",
+     "date": "2026-10-09"
+    },
+    {
+     "name": "New Scientist",
+     "title": "Number of known species of giant waterlilies almost doubles",
+     "url": "https://www.newscientist.com/article/2592896-the-number-of-known-species-of-giant-waterlilies-just-doubled/",
+     "date": "2026-10-09"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "ויקטוריה מלכותית",
+     "url": "https://he.wikipedia.org/wiki/ויקטוריה_מלכותית"
+    }
+   ]
+  },
+  {
+   "id": "library-field-trips",
+   "topic": "education",
+   "date": "2026-10-15",
+   "title": "כל תלמידי ותלמידות כיתה ב׳ בעיר אחת יוצאים לטיול בספרייה",
+   "body": [
+    "בעיר קולומבוס שבארצות הברית התחילה תוכנית חדשה: כל תלמיד ותלמידה בכיתה ב׳ בבתי הספר של העיר יגיעו לביקור חינם בספרייה המרכזית. מדובר בכמעט 4,500 ילדים וילדות מ־79 בתי ספר יסודיים. קרן של הספרייה משלמת על ההסעות ועל כל התוכנית.",
+    "בביקור הראשון שמעו התלמידים והתלמידות סיפורים, שרו ורקדו, ואז טיילו באזור הילדים של הספרייה. הם השתמשו בכרטיס התלמיד שלהם, שהוא גם כרטיס ספרייה, כדי לשאול ספרים, וקיבלו תיק גב כדי לקחת אותם הביתה.",
+    "מנהלת הספרייה הסבירה שכיתה ב׳ היא זמן חשוב מאוד ללימוד קריאה, ושהם רוצים שהילדים והילדות ירגישו שהספרייה היא מקום בשבילם."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/library.svg",
+    "alt": "איור: מדף ספרים צבעוני ושני ילדים עם ספר פתוח",
+    "caption": "איור מקורי: ביקור בספרייה",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "איזה ספר הייתם ממליצים וממליצות לחבר או לחברה מהכיתה? למה דווקא הוא?",
+   "sources": [
+    {
+     "name": "ABC6 (WSYX)",
+     "title": "Columbus schools, library launch field trip program for all second graders",
+     "url": "https://abc6onyourside.com/news/local/columbus-schools-library-launch-field-trip-program-for-all-second-graders-metropolitan-liberty-elementary-foundation-success-cards-lauren-hagan-dr-angela-chapman-kickoff-backpacks",
+     "date": "2026-10-15"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "ספרייה",
+     "url": "https://he.wikipedia.org/wiki/ספרייה"
+    }
+   ]
+  },
+  {
+   "id": "milan-pursuit-record",
+   "topic": "sports",
+   "date": "2026-10-16",
+   "title": "שיא עולם באופני מסלול: ג׳ונתן מילאן מהיר יותר מאי פעם",
+   "body": [
+    "באליפות העולם באופני מסלול בשנגחאי שבסין קבע הרוכב האיטלקי ג׳ונתן מילאן שיא עולם חדש במקצה ״מרדף אישי״. הוא סיים את המרחק ב־3 דקות ו־58.850 שניות, ושיפר בשלוש עשיריות שנייה את השיא הקודם, שגם הוא היה שלו, משנת 2024.",
+    "מילאן הוא הרוכב הראשון שירד מתחת ל־3 דקות ו־59 שניות. הוא קבע את השיא עוד בשלב המוקדמות, ואחר כך גם ניצח בגמר את הרוכב הדני פרדריק מדסן וזכה במדליית הזהב.",
+    "לפני עשר שנים בלבד השיא היה יותר מ־4 דקות ו־10 שניות. במשך זמן רב חשבו שקשה מאוד לרדת מתחת לארבע דקות, אבל בשנת 2021 זה קרה לראשונה, ומאז השיא ממשיך להשתפר."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/milan.jpg",
+    "alt": "רוכב אופניים בחולצה סגולה וקסדה רוכב בכביש",
+    "caption": "תמונת המחשה: ג׳ונתן מילאן במרוץ אופני כביש באיטליה, 2023",
+    "credit": "filip bossuyt from Kortrijk, Belgium",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giro_2023_GIR20089_milan_(52941536905).jpg"
+   },
+   "video": null,
+   "think": "מה לדעתכם ולדעתכן עוזר לספורטאים ולספורטאיות לשבור שוב ושוב את השיאים של עצמם?",
+   "sources": [
+    {
+     "name": "Cyclingnews",
+     "title": "Jonathan Milan breaks Individual Pursuit world record at UCI Track World Championships",
+     "url": "https://www.cyclingnews.com/pro-cycling/racing/jonathan-milan-breaks-individual-pursuit-world-record-at-uci-track-world-championships/",
+     "date": "2026-10-16"
+    },
+    {
+     "name": "ANSA",
+     "title": "Milan wins gold in individual pursuit at cycling worlds",
+     "url": "https://www.ansa.it/english/news/2026/10/16/milan-wins-gold-in-individual-pursuit-at-cycling-worlds_faeb9940-644c-43de-a0db-cce603ad9e9b.html",
+     "date": "2026-10-16"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "אופני מסלול (ספורט)",
+     "url": "https://he.wikipedia.org/wiki/אופני_מסלול_(ספורט)"
+    }
+   ]
+  },
+  {
+   "id": "india-clean-power",
+   "topic": "economy",
+   "date": "2026-10-12",
+   "title": "הודו: שיא חדש של חשמל מהשמש ומהרוח",
+   "body": [
+    "בהודו גרים המון אנשים, והיא צריכה הרבה מאוד חשמל. דוח חדש של מכון מחקר לאנרגיה ולאוויר נקי מראה שבשלושת החודשים יולי עד ספטמבר הפיקה הודו לראשונה יותר מ־100 מיליארד יחידות חשמל (קילוואט־שעה) ממקורות מתחדשים, כמו שמש ורוח.",
+    "החשמל מהשמש גדל הכי מהר: 39% יותר מאשר באותם חודשים בשנה שעברה. לראשונה, השמש סיפקה עשירית (10%) מכל החשמל בהודו. גם החשמל מהרוח גדל, ב־29%.",
+    "עדיין רוב החשמל בהודו מגיע מפחם, כ־64%, אבל החלק של השמש והרוח הולך וגדל. בהודו גם מוסיפים סוללות ענק ששומרות חשמל, ועוזרות לספק אותו גם בשעות הערב והלילה, כשאין שמש."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/india-energy.svg",
+    "alt": "איור: שמש, לוחות סולאריים וטורבינת רוח",
+    "caption": "איור מקורי: חשמל מהשמש ומהרוח",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "איפה בבית הספר או בשכונה שלכם ושלכן אפשר היה להתקין לוחות סולאריים?",
+   "sources": [
+    {
+     "name": "pv magazine India / CREA",
+     "title": "India's renewable energy generation crosses 100 billion units in one quarter for the first time",
+     "url": "https://www.pv-magazine-india.com/2026/10/12/indias-renewable-energy-generation-crosses-100-billion-units-in-one-quarter-for-the-first-time-crea/",
+     "date": "2026-10-12"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "אנרגיה מתחדשת",
+     "url": "https://he.wikipedia.org/wiki/אנרגיה_מתחדשת"
+    }
+   ]
+  },
+  {
+   "id": "songbirds-listening",
+   "topic": "music",
+   "date": "2026-10-13",
+   "title": "בני אדם וציפורי שיר שומעים את אותה מנגינה, אבל מקשיבים אחרת",
+   "body": [
+    "כשאנחנו שומעים מנגינה מוכרת, אנחנו מזהים אותה לפי גובה הצלילים, גבוה או נמוך, גם כשמנגנים אותה בכלי אחר. חוקרים וחוקרות מאוניברסיטאות באמסטרדם ובליידן שבהולנד רצו לבדוק אם ציפורי שיר מקשיבות באותה דרך.",
+    "הם השמיעו לאנשים ולציפורי שיר קטנות, שנקראות באנגלית זברה פינץ׳, את אותם רצפים של חמישה צלילים, ואז שינו בהם דברים. האנשים הקשיבו בעיקר לגובה הצלילים. הציפורים שילבו את הגובה עם עוד תכונה של הצליל, מעין ״צבע״ שלו.",
+    "ועוד גילוי: אנשים עם יותר ניסיון במוזיקה הצליחו להיעזר גם ב״צבע״ של הצליל כשגובה הצלילים לא עזר. לפי החוקרים, לימוד מוזיקה הופך את ההקשבה לגמישה יותר."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/finch.jpg",
+    "alt": "ציפור קטנה עם מקור כתום, לחיים כתומות וחזה לבן",
+    "caption": "תמונת המחשה: זברה פינץ׳, ציפור שיר קטנה",
+    "credit": "Janet's Photos 2012",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taeniopygia_guttata_-Australia_-male-8a.jpg"
+   },
+   "video": null,
+   "think": "נסו לשיר מנגינה מוכרת בקול גבוה ואחר כך בקול נמוך. האם החברים והחברות עדיין מזהים אותה? למה?",
+   "sources": [
+    {
+     "name": "University of Amsterdam",
+     "title": "Humans and songbirds hear the same sounds, but organize them differently",
+     "url": "https://www.uva.nl/shared-content/uva/en/news/press-releases/2026/10/humans-and-songbirds-hear-the-same-sounds-but-organize-them-differently.html",
+     "date": "2026-10-13"
+    },
+    {
+     "name": "Communications Biology",
+     "title": "Divergent processing strategies for auditory sequence recognition in humans and zebra finches",
+     "url": "https://www.nature.com/articles/s42003-026-11035-9",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "גובה (מוזיקה)",
+     "url": "https://he.wikipedia.org/wiki/גובה_(מוזיקה)"
+    }
+   ]
+  },
+  {
+   "id": "heaviest-pumpkin",
+   "topic": "events",
+   "date": "2026-10-10",
+   "title": "הדלעת הכבדה בעולם: 1,431.5 קילוגרם!",
+   "body": [
+    "השיא העולמי לדלעת הכבדה ביותר נשבר פעמיים בשבוע אחד. ב־3 באוקטובר שקלו בבריטניה דלעת של כ־1,296 קילוגרם, שהייתה אז שיא עולם. שבוע אחר כך, ב־10 באוקטובר, בתחרות שקילה בארצות הברית, עלתה על המשקל דלעת של 1,431.5 קילוגרם, יותר מפי שניים ממשקל של פרה!",
+    "את הדלעת גידל רון וואלאס בן ה־60, שמגדל דלעות ענק כבר כ־35 שנה, בהשראת אבא שלו. זו הפעם השלישית שהוא מחזיק בשיא. השנה גידל לראשונה בחממה, והשופטים בדקו את הדלעת היטב לפני השקילה. גינס אישרו את השיא.",
+    "הטיפ שלו למי שרוצים ורוצות לנסות: אפשר להתחיל בשטח קטן, להצטרף לקבוצה של מגדלים ומגדלות ולקבל מהם עצות וזרעים."
+   ],
+   "image": {
+    "src": "assets/img/2026-10-18/pumpkin.jpg",
+    "alt": "שורה של דלעות ענק כתומות על משטחי עץ וחבילות קש",
+    "caption": "תמונת המחשה: דלעות ענק בתחרות גידול בשנה אחרת",
+    "credit": "Nick Ares",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giant_pumpkins_linedup.jpg"
+   },
+   "video": null,
+   "think": "מה צמח צריך כדי לגדול גדול במיוחד? חשבו על שמש, מים, אדמה, ומה עוד?",
+   "sources": [
+    {
+     "name": "Guinness World Records",
+     "title": "Pumpkinpalooza!: how the world's biggest pumpkin record fell twice in one week",
+     "url": "https://www.guinnessworldrecords.com/news/2026/10/pumpkinpalooza-how-the-worlds-biggest-pumpkin-record-fell-twice-in-one-week",
+     "date": "2026-10-14"
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "דלעת (מאכל)",
+     "url": "https://he.wikipedia.org/wiki/דלעת_(מאכל)"
+    }
+   ]
+  },
+  {
+   "id": "musical-bottles",
+   "topic": "experiments",
+   "date": "2026-10-18",
+   "title": "בקבוקים מנגנים: איך המים משנים את הצליל?",
+   "body": [
+    "בעקבות המחקר על ציפורי השיר: הופכים בקבוקים לכלי נגינה ובודקים מה קובע אם הצליל יהיה גבוה או נמוך."
+   ],
+   "materials": [
+    "3 בקבוקים זהים עם צוואר צר (עדיף מפלסטיק)",
+    "מים",
+    "סרגל",
+    "טוש",
+    "אפשר: צבע מאכל, כדי לראות את המים טוב יותר"
+   ],
+   "steps": [
+    "נושפים מעל הפתח של בקבוק ריק: מצמידים את השפה התחתונה לשפת הבקבוק ונושפים בעדינות על פני הפתח, עד שנשמע צליל. צריך קצת להתאמן!",
+    "מסמנים בטוש חצי מגובה הבקבוק השני, ושלושה רבעים מגובה הבקבוק השלישי, וממלאים בהם מים עד הסימן. את הבקבוק הראשון משאירים ריק.",
+    "נושפים מעל כל בקבוק בתורו. איזה בקבוק נותן את הצליל הנמוך ביותר? ואיזה את הגבוה ביותר?",
+    "מוסיפים או מורידים מעט מים ובונים ״סולם״ של צלילים. נסו לנגן ביחד מנגינה פשוטה!"
+   ],
+   "why": "צליל הוא רטט שעובר באוויר עד לאוזניים שלנו. כשנושפים מעל הבקבוק, האוויר שבתוכו מתחיל לרטוט. כשיש בבקבוק הרבה אוויר, כמו בבקבוק הריק, הוא רוטט לאט יותר והצליל נמוך. כשמוסיפים מים, נשאר בבקבוק פחות אוויר, הוא רוטט מהר יותר, והצליל גבוה יותר. גם בכלי נשיפה, כמו חליל, הצליל נוצר מאוויר שרוטט בתוך הכלי.",
+   "safety": "עדיף להשתמש בבקבוקי פלסטיק. אם משתמשים בזכוכית, עושים זאת בזהירות וליד מבוגר או מבוגרת. לא נושפים יותר מדי ברצף, כדי שלא תסתחרר לכם הראש, וכל אחד ואחת נושפים רק בבקבוק שלהם.",
+   "image": {
+    "src": "assets/img/2026-10-18/bottles.svg",
+    "alt": "איור: שלושה בקבוקים עם כמויות שונות של מים ותווים מעליהם",
+    "caption": "איור מקורי: פחות אוויר, צליל גבוה יותר",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "מה יקרה אם במקום לנשוף תקישו בעדינות על הבקבוקים עם כפית? נחשו ובדקו אם הסדר של הצלילים משתנה!",
+   "sources": [
+    {
+     "name": "Science Buddies",
+     "title": "Musical Bottles | STEM Activity",
+     "url": "https://www.sciencebuddies.org/stem-activities/musical-bottles",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "גובה (מוזיקה)",
+     "url": "https://he.wikipedia.org/wiki/גובה_(מוזיקה)"
+    },
+    {
+     "name": "ויקיפדיה",
+     "title": "קול",
+     "url": "https://he.wikipedia.org/wiki/קול"
+    }
+   ]
+  },
+  {
+   "id": "foil-leaf",
+   "topic": "experiments",
+   "date": "2026-10-18",
+   "title": "עלה ענק מנייר כסף: כמה משקל הוא יכול לשאת?",
+   "body": [
+    "בעקבות הנימפאה הענקית, שהעלים שלה צפים על המים: בונים ״עלה״ מנייר כסף ובודקים כמה מטבעות הוא מחזיק לפני שהוא שוקע."
+   ],
+   "materials": [
+    "נייר כסף (נייר אלומיניום)",
+    "סרגל",
+    "קערה גדולה או גיגית עם מים",
+    "הרבה מטבעות קטנים ויבשים מאותו סוג",
+    "מגבת"
+   ],
+   "steps": [
+    "גוזרים שני ריבועים מנייר הכסף: אחד של 30 על 30 ס״מ, ואחד של 15 על 15 ס״מ.",
+    "מקפלים כל ריבוע ל״עלה״ עם תחתית שטוחה ושוליים מורמים מסביב, כמו עלה של נימפאה ענקית. משתדלים ששני העלים יהיו באותה צורה.",
+    "מניחים עלה אחד על המים ומוסיפים מטבע אחד בכל פעם, בעדינות ובצורה מאוזנת, עד שהוא שוקע. סופרים כמה מטבעות הוא החזיק לפני המטבע האחרון.",
+    "חוזרים על הניסוי עם העלה השני. מי החזיק יותר? נסו לשנות את הצורה או את גובה השוליים, וקבעו שיא כיתתי!"
+   ],
+   "why": "חפץ צף כשהוא קל ביחס לגודל שלו, יותר מהמים. בתוך השוליים של העלה יש הרבה אוויר, ולכן הוא צף, גם אם נייר הכסף עצמו דק. כל מטבע מוסיף משקל, והעלה שוקע קצת יותר עמוק. כשהמשקל נעשה גדול מדי ביחס לנפח של העלה, המים עולים מעל השוליים והעלה שוקע. לעלה הגדול יש נפח גדול יותר, ולכן הוא מחזיק יותר מטבעות. כך גם אוניות כבדות מפלדה צפות: הצורה שלהן מחזיקה בתוכה הרבה אוויר. גם לעלים של הנימפאה הענקית יש שוליים מורמים, כמו לעלה שבניתם.",
+   "safety": "משחקים עם מים רק ליד מבוגר או מבוגרת. מנגבים מים שנשפכו כדי לא להחליק, לא מכניסים מטבעות לפה, ושוטפים ידיים בסוף.",
+   "image": {
+    "src": "assets/img/2026-10-18/foil-leaf.svg",
+    "alt": "איור: עלה מנייר כסף צף על מים ועליו מטבעות",
+    "caption": "איור מקורי: עלה מנייר כסף שנושא מטבעות",
+    "credit": "איור מקורי של Kita",
+    "license": "מותר לשימוש חינוכי",
+    "license_url": "",
+    "source_url": ""
+   },
+   "video": null,
+   "think": "האם עלה עם שוליים גבוהים יחזיק יותר מטבעות מעלה עם שוליים נמוכים? נחשו לפני שאתם ואתן בודקים!",
+   "sources": [
+    {
+     "name": "Science Buddies",
+     "title": "How Much Weight Can Aluminum Foil Boats Float?",
+     "url": "https://www.sciencebuddies.org/stem-activities/aluminum-foil-boats-float",
+     "date": ""
+    }
+   ],
+   "more": [
+    {
+     "name": "ויקיפדיה",
+     "title": "ציפה (פיזיקה)",
+     "url": "https://he.wikipedia.org/wiki/ציפה_(פיזיקה)"
+    }
+   ]
+  }
+ ]
+}
