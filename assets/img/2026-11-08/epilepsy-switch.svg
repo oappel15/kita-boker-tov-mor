@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#f8eef6"/>
+<ellipse cx="280" cy="250" rx="160" ry="140" fill="#ffd6e8"/>
+<path d="M180 200 q40 20 30 70 q50 10 40 60" stroke="#e089b4" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M250 160 q55 30 20 90 q45 5 25 70" stroke="#d46a9c" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M330 175 q-20 50 25 80 q-15 40 20 70" stroke="#e089b4" stroke-width="8" fill="none" stroke-linecap="round"/>
+<rect x="500" y="120" width="220" height="260" rx="28" fill="#ffffff" stroke="#d9a8c8" stroke-width="6"/>
+<text x="610" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#9a4d7a">עמעם</text>
+<rect x="545" y="190" width="130" height="140" rx="20" fill="#f3e0ec"/>
+<rect x="595" y="205" width="30" height="110" rx="15" fill="#e0bdd3"/>
+<circle cx="610" cy="250" r="24" fill="#d46a9c"/>
+<path d="M440 250 H500" stroke="#d46a9c" stroke-width="6" stroke-dasharray="8 8"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#fff6ea"/>
+<ellipse cx="400" cy="320" rx="130" ry="150" fill="#e8b07a"/>
+<ellipse cx="400" cy="200" rx="90" ry="110" fill="#e8b07a"/>
+<path d="M330 250 q20 20 0 50" stroke="#8a4b24" stroke-width="8" fill="none"/>
+<path d="M470 250 q-20 20 0 50" stroke="#8a4b24" stroke-width="8" fill="none"/>
+<rect x="388" y="40" width="24" height="180" rx="8" fill="#c98a4e"/>
+<circle cx="400" cy="55" r="22" fill="#d9a86a"/>
+<line x1="392" y1="80" x2="380" y2="400" stroke="#fffaf0" stroke-width="3"/>
+<line x1="400" y1="80" x2="395" y2="410" stroke="#fffaf0" stroke-width="3"/>
+<line x1="408" y1="80" x2="410" y2="410" stroke="#fffaf0" stroke-width="3"/>
+<line x1="416" y1="80" x2="425" y2="400" stroke="#fffaf0" stroke-width="3"/>
+<rect x="360" y="215" width="80" height="14" rx="4" fill="#8a4b24"/>
+<circle cx="560" cy="140" r="18" fill="#f2c6a0"/>
+<path d="M548 150 q40 80 10 160" stroke="#c98a4e" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>
